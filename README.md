@@ -49,7 +49,7 @@ tailwind.config.js
     }
 
     plugins: [
-        require('royteusink/tailwindcss-state'),
+        require('tailwindcss-state'),
     ],
 }
 ```
@@ -86,7 +86,7 @@ Activator works with `group-` prefix.
 
 ### Scopes (Nested toggle states):
 
-This example shows two nested states (`activated` and `expanded`), the state names must be different else they will interfare each other.
+This example shows two nested states (`activated` and `expanded`), the state names must be different else they will interfere each other.
 
 ```html
 <aside class="invisible activated:visible activated">
@@ -106,8 +106,8 @@ This example shows two nested states (`activated` and `expanded`), the state nam
 ### Combine with :hover, :focus
 
 ```html
-<div class="bg-red-100 border-4 on:bg-green-200 on:hover:bg-blue-500 activated:border-green-400">
-    <button type="button" class="bg-red-500 on:bg-green-500 group-activated:hover:bg-blue-600">Activate</button>
+<div class="bg-red-100 border-4 activated:bg-green-200 activated:hover:bg-blue-500 activated:border-green-400">
+    <button type="button" class="bg-red-500 group-activated:hover:bg-blue-600">Activate</button>
 </div>
 ```
 
