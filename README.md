@@ -24,8 +24,8 @@ Solves the problem to apply styles when a specific custom class is applied.
 ## Install
 
 ```shell
-npm install royteusink/tailwindcss-state
-yarn add royteusink/tailwindcss-state
+npm install tailwindcss-state
+yarn add tailwindcss-state
 ```
 
 ## Configuration
