@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "TailwindCSS plugin for managing state classes",
   "main": "src/index.js",
+  "files": [
+    "!demo/"
+  ],
   "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
