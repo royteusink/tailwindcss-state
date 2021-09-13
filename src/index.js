@@ -11,8 +11,6 @@ module.exports = plugin(function(tailwind) {
     return [variant.trim(), options];
   });
 
-  console.log(variants);
-
   const blackList = [
     'group-hover',
     'focus-within',
@@ -32,7 +30,7 @@ module.exports = plugin(function(tailwind) {
 
   variants.forEach(([variant, options]) => {
     if (blackList.includes(variant)) {
-      console.log(`"${variant}" can not be used as state. (tailwindcss-state)`);
+      console.log(`"${variant}" cannot be used as a state. (tailwindcss-state)`);
       return;
     }
 
