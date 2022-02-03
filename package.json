@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-state",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "TailwindCSS plugin for managing state classes",
   "main": "src/index.js",
   "files": [
