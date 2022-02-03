@@ -110,7 +110,3 @@ This example shows two nested states (`activated` and `expanded`), the state nam
     <button type="button" class="bg-red-500 group-activated:hover:bg-blue-600">Activate</button>
 </div>
 ```
-
-## Demo
-
-TODO: codesandbox examples.
