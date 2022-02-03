@@ -26,7 +26,7 @@
     "url": "https://github.com/royteusink/tailwindcss-state/issues"
   },
   "homepage": "https://github.com/royteusink/tailwindcss-state#readme",
-  "devDependencies": {
-    "tailwindcss": "^2.2.7"
+  "peerDependencies": {
+    "tailwindcss": ">=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1"
   }
 }
